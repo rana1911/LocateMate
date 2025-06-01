@@ -1,0 +1,65 @@
+/* Container styles */
+.post-lost-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+/* Card styles */
+.post-lost-card {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* Title */
+.post-lost-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form field styles */
+.post-lost-field {
+    margin-bottom: 15px;
+}
+
+.post-lost-label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.post-lost-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: black;
+    color: white;
+}
+
+/* Button */
+.post-lost-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.post-lost-button:hover {
+    background-color: #218838;
+}

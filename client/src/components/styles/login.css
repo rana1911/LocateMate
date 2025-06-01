@@ -1,0 +1,72 @@
+/* Dark background for body */
+.login-page body {
+    background-color: #121212; /* Dark background */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the login card */
+.login-page .login-card {
+    width: 100%;
+    max-width: 600px; /* Increased width of the login card */
+    background-color: rgba(0, 0, 0, 0.8); /* Faded black background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 50px; /* Increased padding for a longer card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Heading styles */
+.login-page h2 {
+    font-size: 28px; /* Slightly larger heading */
+    font-weight: bold;
+    color: #b3b3b3; /* Light gray color */
+}
+
+/* Input fields styling */
+.login-page .form-control {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    color: white; /* Set text color to white */
+    border: 1px solid #333; /* Subtle border color */
+    border-radius: 5px;
+}
+
+.login-page .form-label {
+    font-weight: bold; /* Changed to normal for non-bold text */
+    color: white;
+}
+
+/* Change placeholder text color */
+.login-page .form-control::placeholder {
+    color: #b2bdba; /* Spotify's green placeholder color */
+    opacity: 1; /* Ensure full opacity */
+}
+
+/* Keep the input background dark when focused */
+.login-page .form-control:focus {
+    background-color: rgba(0, 0, 0, 0.8); /* Keep background black when focused */
+    color: #b2bdba;
+    border-color: #b2bdba; /* Spotify's green color on focus */
+    box-shadow: 0 0 5px rgba(29, 185, 84, 0.5); /* Subtle glow effect */
+}
+
+/* Button styling */
+.login-page .btn-success {
+    background-color: #1db954; /* Spotify's green color */
+    border-color: #1db954;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.login-page .btn-success:hover {
+    background-color: #1ed760; /* Slightly lighter green */
+    border-color: #1ed760;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+/* Link styling */
+.login-page a {
+    color: #1db954; /* Green links */
+    text-decoration: none;
+}
+

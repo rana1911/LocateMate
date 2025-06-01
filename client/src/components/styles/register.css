@@ -1,0 +1,84 @@
+/* Dark background for body */
+body {
+    background-color: black;
+}
+
+.register-container body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the register card */
+.register-card {
+    width: 100%;
+    max-width: 600px; /* Increased width */
+    background-color: rgba(0, 0, 0, 0.8); /* Faded black background */
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    margin-top: 90px;
+}
+
+/* Heading styles */
+.register-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+
+/* Input fields styling */
+.register-container .form-control {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.register-container .form-label {
+    color: white;
+    font-weight: bold;
+}
+
+.form-control::placeholder {
+    color: #b2bdba;
+    opacity: 1;
+}
+
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #b2bdba;
+    border-color: white;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Register button */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #121212;
+}
+
+.btn-success:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    color: #121212;
+}
+
+/* Links */
+.register-container a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer
+footer {
+    background-color: #121212;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+} */

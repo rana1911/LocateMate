@@ -1,0 +1,83 @@
+/* General Page Styling */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark background */
+    color: white;
+}
+
+/* Profile Card */
+.profile-card {
+    width: 100%;
+    max-width: 700px; /* Bigger card */
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.02);
+}
+
+
+/* User Info */
+.user-info {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.user-info p {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #222;
+    border-radius: 8px;
+    color: #ddd;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* Labels */
+.user-info strong {
+    color: #1db954;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #1db954;
+    border-color: #1db954;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #1ed760;
+    transform: scale(1.05);
+}
+
+/* Links */
+.profile-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-links a {
+    color: #1db954;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.profile-links a:hover {
+    text-decoration: underline;
+}

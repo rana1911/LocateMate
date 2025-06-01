@@ -1,0 +1,79 @@
+/* Styling specific to BrowseLostItems component */
+.bli-container {
+    background-color: #121212; /* Dark background */
+    color: white; /* White text color */
+}
+
+/* Card styling */
+.bli-card {
+    background-color: rgba(0, 0, 0, 0.8); /* Faded black background */
+    color: white; /* White text inside cards */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+    overflow: hidden; /* To ensure no content overflows outside the card */
+    width: 100%; /* Full width of its container */
+    max-width: 350px; /* Set the maximum width of the card */
+    height: auto; /* Let the height adjust based on content */
+    margin: 0 auto; /* Center the card horizontally */
+    display: flex;
+    flex-direction: column; /* Make card content stack vertically */
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+/* Card Hover Effect */
+.bli-card:hover {
+    transform: scale(1.03); /* Slight enlargement on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8); /* More prominent shadow */
+}
+
+/* Image styling */
+.bli-card-img-top {
+    width: 100%; /* Take up full width */
+    height: 200px; /* Fixed height for the image */
+    object-fit: contain; /* Ensure the entire image fits inside the card without cutting off */
+    object-position: center; /* Center the image within the card */
+    border-top-left-radius: 10px; /* Match card's rounded corners */
+    border-top-right-radius: 10px;
+}
+
+/* Content styling */
+.bli-card-body {
+    padding: 15px; /* Add padding around the text */
+    flex: 1; /* Allow the body to take the remaining space */
+}
+
+/* Title and text styling */
+.bli-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f2f2f2; /* Light gray for titles */
+    text-align: center; /* Center-align the item name */
+    margin-bottom: 15px; /* Add space below the title */
+}
+
+.bli-card-text {
+    font-size: 0.9rem;
+    color: #b3b3b3; /* Muted text color */
+    margin-bottom: 15px; /* Add space below description */
+}
+
+/* Button styling */
+.bli-card .btn {
+    background-color: white; 
+    color: black; /* Black text */
+    border: none; /* No border */
+    border-radius: 50px; /* Fully rounded button */
+    padding: 10px 20px; /* Add padding for better appearance */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+    display: block;
+    margin: 15px auto;
+}
+
+.bli-card .btn:hover {
+    background-color: #f2f2f2; /* Slightly lighter on hover */
+    transform: scale(1.1); /* Enlarge button slightly */
+    color: black;
+}
+

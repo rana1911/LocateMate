@@ -1,0 +1,64 @@
+/* Dark background for body */
+.report-found-item-page body {
+    background-color: #121212; /* Dark theme */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the card */
+.report-found-item-page .card {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for the card */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+    max-width: 600px; /* Increased max width for a wider form */
+    margin-top: 60px;
+}
+
+/* Heading styles */
+.report-found-item-page h2 {
+    font-weight: bold;
+    color: #b3b3b3; /* Light gray for headings */
+}
+
+.report-found-item-page .form-label {
+    font-weight: bold;
+    color: white;
+}
+
+/* Input fields and textarea styling */
+.report-found-item-page .form-control {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    color: white; /* White text */
+    border: 1px solid #333; /* Subtle border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Placeholder text color */
+.report-found-item-page .form-control::placeholder {
+    color: #808080; /* White placeholder */
+    opacity: 1;
+}
+
+/* Focus state for inputs */
+.report-found-item-page .form-control:focus {
+    background-color: rgba(0, 0, 0, 0.8); /* Maintain dark background */
+    color: white; /* Ensure text stays white */
+    border-color: white; /* White border on focus */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Subtle glow */
+}
+
+/* Button styling */
+.report-found-item-page .btn-success {
+    background-color: #1db954; /* Spotify's green color */
+    border-color: #1db954;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.report-found-item-page .btn-success:hover {
+    background-color: #1ed760; /* Slightly lighter green */
+    border-color: #1ed760;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
